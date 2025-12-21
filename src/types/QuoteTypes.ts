@@ -1,14 +1,14 @@
 export interface Quote {
-  id: string;
-  quoteId: string;
-  quote: string;
+  _id?: string;
+  text: string;
   author: string;
-  createdAt?: Date;
-  updatedAt?: Date;
+  category: string;
+  createdAt?: string;
+  updatedAt?: string;
 }
 
 export interface QuoteFormData {
-  quote: string;
+  text: string;
   author: string;
+  category: string;
 }
-
