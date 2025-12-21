@@ -1,22 +1,28 @@
-import Headers from './components/Header'
 import './App.css'
 import Banner from './components/Banner'
-import QuoteCard from './components/QuoteCard'
 import Footer from './components/Footer'
 import QuoteTable from './components/QuoteTable'
+import QuoteCard from './components/QuoteCard'
+import { Quote } from 'lucide-react'
+import Header from './components/Header'
 
 
-
+interface Quote {
+  _id?: string;
+  text: string;
+  author: string;
+  category: string;
+}
 
 function App() {
 
 
   return (
     <>
-     <Headers />
+<Header />
      <Banner />
+    <QuoteCard quote={Quote} />
      <QuoteTable />
-    <QuoteCard />
     <Footer/>
    
        

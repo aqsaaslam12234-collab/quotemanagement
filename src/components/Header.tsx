@@ -1,4 +1,4 @@
-import { Plus } from "lucide-react";
+import { BookOpen, Plus } from "lucide-react";
 
 interface HeaderProps {
   onAddClick: () => void;
@@ -13,8 +13,8 @@ const Header = ({ onAddClick }: HeaderProps) => {
            <div  className="container mx-auto px-4">
             <div className="flex items-center justify-between h-16"> 
                 <div className="flex items-center space-x-2">
-                    
-                    <span className="text-xl font-bold">Quote Management System</span>
+                                <BookOpen className="w-8 h-8 text-teal-400" />
+                    <span className=" text-3xl font-bold ">Quote Management System</span>
                 </div>
                   <button
             onClick={onAddClick}
@@ -23,16 +23,6 @@ const Header = ({ onAddClick }: HeaderProps) => {
             <Plus className="w-5 h-5" />
             <span>Add Quote</span>
           </button>
-
-
-
-
-                {/* <nav className="hidden md:flex space-x-8">
-                    <a href="#home" className="hover:text-teal-400 transition font-bold">Home</a>
-                    <a href="#qoutes" className="hover:text-teal-400 transition font-bold">Quotes</a>
-                    <a href="#settings" className="hover:text-teal-400 transition font-bold">Settings</a>
-
-                </nav> */}
                 
             </div>
           
