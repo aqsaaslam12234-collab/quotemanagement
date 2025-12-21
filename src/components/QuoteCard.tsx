@@ -30,8 +30,8 @@ const QuoteCard = ({ quote }: QuoteCardProps) => {
              <table className="w-full">
                <thead className="bg-teal-50 border-b">
                    <tr>
-                         <th className="px-6 py-4 text-left text-xs font-semibold text-teal-500 uppercase tracking-wider">Show Qoute</th>
-                         <th className="px-6 py-4 text-left text-xs font-semibold text-teal-500 uppercase tracking-wider hidden lg:table-cell">More Details</th>
+                         <th className="px-6 py-4 text-left text-xs font-semibold text-teal-500 uppercase tracking-wider">Show Quote</th>
+                         
                      </tr>
                  </thead>
                  <tbody className="divide-y divide-teal-100">

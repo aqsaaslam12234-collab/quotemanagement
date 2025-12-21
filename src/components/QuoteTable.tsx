@@ -45,7 +45,7 @@ const Quotetable = () => {
                   <div className="text-sm text-gray-900">- Maya Angelou's</div>
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="px-2 py-1 text-xs font-semibold rounded-full bg-indigo-100 text-indigo-800">
+                  <span className="px-2 py-1 text-xs font-semibold rounded-full bg-indigo-100 text-teal-800">
                  LeaderShip
                   </span>
                 </td>
@@ -56,7 +56,7 @@ const Quotetable = () => {
                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
                   <button
                     
-                    className="text-indigo-600 hover:text-indigo-900 mr-4"
+                    className="text-teal-600 hover:text-teal-900 mr-4"
                   >
                     <Edit className="w-4 h-4 inline" />
                   </button>
