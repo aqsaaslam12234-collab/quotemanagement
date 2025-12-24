@@ -1,16 +1,16 @@
 import "./App.css";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
-import QuoteTable from "./components/QuoteTable";
 import QuoteCard from "./components/QuoteCard";
+import QuoteTable from "./components/QuoteTable";
 import Header from "./components/Header";
 
-interface Quote {
-  _id?: string;
-  text: string;
-  author: string;
-  category: string;
-}
+// interface Quote {
+//   _id?: string;
+//   text: string;
+//   author: string;
+//   category: string;
+// }
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         throw new Error("Function not implemented.");
       } } />
       <Banner />
-      <QuoteCard quote={undefined} />
+      <QuoteCard/>
       <QuoteTable />
       <Footer />
     </>
