@@ -45,14 +45,7 @@ export default function DailyInspirationHero() {
             — {quotes[currentQuote].author}
           </p>
 
-          <div className="flex gap-3 justify-center items-center">
-            <button
-              onClick={getNewQuote}
-              className="bg-teal-600 hover:bg-teal-700 text-white font-semibold px-9 py-3 rounded-lg transition-colors"
-            >
-              Share
-            </button>
-          </div>
+          
         </div>
 
         <div className="bg-white rounded-2xl shadow-lg p-10 flex flex-col">
@@ -67,14 +60,7 @@ export default function DailyInspirationHero() {
             — {quotes[(currentQuote + 1) % quotes.length].author}
           </p>
 
-          <div className="flex gap-3 justify-center items-center">
-            <button
-              onClick={getNewQuote}
-              className="bg-teal-600 hover:bg-teal-700 text-white font-semibold px-9 py-3 rounded-lg transition-colors"
-            >
-              Share
-            </button>
-          </div>
+          
         </div>
 
         <div className="bg-white rounded-2xl shadow-lg p-10 flex flex-col">
@@ -89,14 +75,7 @@ export default function DailyInspirationHero() {
             — {quotes[(currentQuote + 2) % quotes.length].author}
           </p>
 
-          <div className="flex gap-3 justify-center items-center">
-            <button
-              onClick={getNewQuote}
-              className="bg-teal-600 hover:bg-teal-700 text-white font-semibold px-9 py-3 rounded-lg transition-colors"
-            >
-              Share
-            </button>
-          </div>
+          
         </div>
       </div>
     </div>
